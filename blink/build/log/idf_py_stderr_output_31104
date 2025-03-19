@@ -1,0 +1,127 @@
+[0;33m--- Warning: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.5.0 on \\.\COM3 115200[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400811e0: call_start_cpu1 at C:/Users/renan/esp-idf/components/esp_system/port/cpu_start.c:183
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at C:/Users/renan/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at C:/Users/renan/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40143b38: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m--- 0x40143878: esp_reset_reason_init at C:/Users/renan/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c:60
+[0m
+[0;33m--- 0x400f7f64: s_set_default_wifi_log_level at C:/Users/renan/esp-idf/components/esp_wifi/src/wifi_init.c:85
+[0m
+[0;33m--- 0x400db45c: esp_ipc_init at C:/Users/renan/esp-idf/components/esp_system/esp_ipc.c:112
+[0m
+[0;33m--- 0x400da87c: check_adc_oneshot_driver_conflict at C:/Users/renan/esp-idf/components/driver/deprecated/adc_legacy.c:925
+[0m
+[0;33m--- 0x40088f80: enable_timer_group0_for_calibration at C:/Users/renan/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:197
+[0m
+[0;33m--- 0x400d2944: esp_app_format_init_elf_sha256 at C:/Users/renan/esp-idf/components/esp_app_format/esp_app_desc.c:70
+[0m
+[0;33m--- 0x400d56e8: __esp_system_init_fn_esp_timer_startup_init at C:/Users/renan/esp-idf/components/esp_timer/src/esp_timer.c:578
+[0m
+[0;33m--- 0x4015c768: __esp_system_init_fn_init_components0 at C:/Users/renan/esp-idf/components/esp_system/startup.c:493
+[0m
+[0;33m--- 0x400f5bc0: esp_netif_new_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:711
+[0m
+[0;33m--- 0x400f81ec: wifi_default_action_sta_start at C:/Users/renan/esp-idf/components/esp_wifi/src/wifi_default.c:71
+[0m
+[0;33m--- 0x400f53b8: esp_netif_set_mac_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1014
+[0m
+[0;33m--- 0x40124488: cnx_start_handoff_cb at ??:?
+[0m
+[0;33m--- 0x400f5ddc: esp_netif_start_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1089
+[0m
+[0;33m--- 0x400f821c: wifi_default_action_sta_connected at C:/Users/renan/esp-idf/components/esp_wifi/src/wifi_default.c:85
+[0m
+[0;33m--- 0x400f602c: esp_netif_up_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1666
+[0m
+[0;33m--- 0x400f5808: esp_netif_dhcpc_start_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1458
+[0m
+[0;33m--- 0x400d8cc0: example_handler_on_wifi_connect at C:/Users/renan/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:59
+[0m
+[0;33m--- 0x400f5928: esp_netif_create_ip6_linklocal_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:2129
+[0m
+[0;33m--- 0x400f63fc: esp_netif_update_default_netif_lwip at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:312
+[0m
+[0;33m--- 0x400d8a84: example_handler_on_sta_got_ipv6 at C:/Users/renan/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:84
+[0m
+[0;33m--- 0x400f63fc: esp_netif_update_default_netif_lwip at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:312
+[0m
+[0;33m--- 0x400f8048: wifi_default_action_sta_got_ip at C:/Users/renan/esp-idf/components/esp_wifi/src/wifi_default.c:127
+[0m
+[0;33m--- 0x400d8c3c: example_handler_on_sta_got_ip at C:/Users/renan/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:67
+[0m
+[0;33m--- 0x400d88ac: print_all_ips_tcpip at C:/Users/renan/esp-idf/examples/common_components/protocol_examples_common/connect.c:57
+0x4015d57c: tcpip_exec_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:701
+[0m
+[0;33m--- 0x400d7c1f: connect_wifi at C:/Users/renan/esp-idf/examples/mestrado/blink/main/blink_example_main.c:250 (discriminator 1)
+[0m
+[0;33m--- 0x4008944f: _esp_error_check_failed at C:/Users/renan/esp-idf/components/esp_system/esp_err.c:50
+[0m
+[0;33m--- 0x400817ca: panic_abort at C:/Users/renan/esp-idf/components/esp_system/panic.c:466
+0x40089459: esp_system_abort at C:/Users/renan/esp-idf/components/esp_system/port/esp_system_chip.c:93
+0x40090931: abort at C:/Users/renan/esp-idf/components/newlib/abort.c:38
+0x4008944f: _esp_error_check_failed at C:/Users/renan/esp-idf/components/esp_system/esp_err.c:50
+0x400d7c1f: connect_wifi at C:/Users/renan/esp-idf/examples/mestrado/blink/main/blink_example_main.c:250 (discriminator 1)
+0x400d8810: app_main at C:/Users/renan/esp-idf/examples/mestrado/blink/main/blink_example_main.c:1031
+0x401636b4: main_task at C:/Users/renan/esp-idf/components/freertos/app_startup.c:208
+0x40089fa5: vPortTaskWrapper at C:/Users/renan/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m--- 0x40080400: _init at ??:?
+[0m
+[0;33m--- 0x400811e0: call_start_cpu1 at C:/Users/renan/esp-idf/components/esp_system/port/cpu_start.c:183
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at C:/Users/renan/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40080000: _WindowOverflow4 at C:/Users/renan/esp-idf/components/xtensa/xtensa_vectors.S:2027
+[0m
+[0;33m--- 0x40000000: _WindowOverflow4 in ROM
+[0m
+[0;33m--- 0x40143b38: _GLOBAL__sub_I__ZN17__eh_globals_init7_S_initE at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/gcc/libstdc++-v3/libsupc++/eh_globals.cc:162
+[0m
+[0;33m--- 0x40143878: esp_reset_reason_init at C:/Users/renan/esp-idf/components/esp_system/port/soc/esp32/reset_reason.c:60
+[0m
+[0;33m--- 0x400f7f64: s_set_default_wifi_log_level at C:/Users/renan/esp-idf/components/esp_wifi/src/wifi_init.c:85
+[0m
+[0;33m--- 0x400db45c: esp_ipc_init at C:/Users/renan/esp-idf/components/esp_system/esp_ipc.c:112
+[0m
+[0;33m--- 0x400da87c: check_adc_oneshot_driver_conflict at C:/Users/renan/esp-idf/components/driver/deprecated/adc_legacy.c:925
+[0m
+[0;33m--- 0x40088f80: enable_timer_group0_for_calibration at C:/Users/renan/esp-idf/components/esp_hw_support/port/esp32/rtc_time.c:197
+[0m
+[0;33m--- 0x400d2944: esp_app_format_init_elf_sha256 at C:/Users/renan/esp-idf/components/esp_app_format/esp_app_desc.c:70
+[0m
+[0;33m--- 0x400d56e8: __esp_system_init_fn_esp_timer_startup_init at C:/Users/renan/esp-idf/components/esp_timer/src/esp_timer.c:578
+[0m
+[0;33m--- 0x4015c768: __esp_system_init_fn_init_components0 at C:/Users/renan/esp-idf/components/esp_system/startup.c:493
+[0m
+[0;33m--- 0x400f5bc0: esp_netif_new_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:711
+[0m
+[0;33m--- 0x400f81ec: wifi_default_action_sta_start at C:/Users/renan/esp-idf/components/esp_wifi/src/wifi_default.c:71
+[0m
+[0;33m--- 0x400f53b8: esp_netif_set_mac_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1014
+[0m
+[0;33m--- 0x40124488: cnx_start_handoff_cb at ??:?
+[0m
+[0;33m--- 0x400f5ddc: esp_netif_start_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1089
+[0m
+[0;33m--- 0x400f821c: wifi_default_action_sta_connected at C:/Users/renan/esp-idf/components/esp_wifi/src/wifi_default.c:85
+[0m
+[0;33m--- 0x400f602c: esp_netif_up_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1666
+[0m
+[0;33m--- 0x400f5808: esp_netif_dhcpc_start_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:1458
+[0m
+[0;33m--- 0x400d8cc0: example_handler_on_wifi_connect at C:/Users/renan/esp-idf/examples/common_components/protocol_examples_common/wifi_connect.c:59
+[0m
+[0;33m--- 0x400f5928: esp_netif_create_ip6_linklocal_api at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:2129
+[0m
+[0;33m--- 0x400f63fc: esp_netif_update_default_netif_lwip at C:/Users/renan/esp-idf/components/esp_netif/lwip/esp_netif_lwip.c:3
